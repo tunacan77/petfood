@@ -125,12 +125,12 @@
         align-items: center;
     }
     .btm_link .sideleft{
-        width: 100%;
+        width: 100% !important;
         margin-right: 0px;
     }
 
     .btm_link .sideright{
-        width: 100%;
+        width: 100% !important;
         margin-top: 24px;
     }
 
