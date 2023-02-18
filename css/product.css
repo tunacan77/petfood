@@ -21,12 +21,12 @@
     margin-top: 16px;
 }
 
-.knowsustainable_box {
+.gobuy_box {
     display: flex;
     justify-content: flex-end;
 }
 
-.knowsustainable {
+.gobuy {
 
     padding: 8px 48px;
     border: 1px solid #f02d20;
@@ -35,11 +35,10 @@
     border-radius: 50px;
 }
 
-.knowsustainable:hover {
+.gobuy:hover {
 
-    padding: 8px 48px;
-    border: 1px solid #f02d20;
-    font-size: 24px;
+    
+    
     color: #ffffff;
     background-color: #f02d20;
     border-radius: 50px;
@@ -58,7 +57,6 @@
         font-size: 20px;
         font-weight: 300;
         line-height: 1.2;
-        color: #333;
         margin-top: 16px;
     }
     
@@ -90,6 +88,7 @@
 
 .content_list{
     margin-top: 24px;
+    margin-bottom: 48px;
 }
 .content_item{
     font-size: 24px;
