@@ -17,32 +17,51 @@
     font-size: 20px;
     font-weight: 300;
     line-height: 1.2;
-    color: rgb(114, 114, 114);
+    color: rgb(160, 160, 160);
     margin-top: 16px;
+    /*產品簡介小灰字*/
 }
 
-.gobuy_box {
+.shopbtn{
     display: flex;
     justify-content: flex-end;
 }
 
+.mr16{
+    margin-right: 16px;
+    /*兩個賣場的按鈕中間空隙*/
+}
+
+/*.gobuy_box {
+    display: flex;
+    justify-content: flex-end;
+}*/
+
 .gobuy {
 
-    padding: 8px 48px;
+    padding: 8px 32px;
     border: 1px solid #f02d20;
     font-size: 24px;
     color: #f02d20;
     border-radius: 50px;
 }
 
-.gobuy:hover {
+.shopee_org{   
+    border: 1px solid #fd5822;
+    color: #fd5822;
+    /*蝦皮按鈕設定*/
+}
 
-    
-    
+.gobuy:hover {   
     color: #ffffff;
     background-color: #f02d20;
     border-radius: 50px;
     transition: 0.5s;
+}
+
+.shopee_org:hover {   
+    background-color: #fd5822;
+    /*蝦皮按鈕設定*/
 }
 
 @media (max-width: 768px){
