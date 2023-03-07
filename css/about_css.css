@@ -177,7 +177,9 @@
     }
     .x100percent_sideleft {
         margin-right: 0px;
-
+    }
+    .x100percent_sideright p{
+        margin-top: 16px;
     }
 
 }

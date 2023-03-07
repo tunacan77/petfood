@@ -46,6 +46,13 @@
 
 }
 
+@media (max-width: 576px) {
+    .main_slogan h2 {
+        font-size: 28px;
+    }
+
+}
+
 
 /*-------------頁底------------------*/
 .btm_link {
